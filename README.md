@@ -68,6 +68,7 @@ urlpatterns = [
 Тут мы импортировали файл settings и импортировали static для дальнейшей корректной работы. А к `urlpatterns` добавили: `+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)`.
 
 ### templates/main/pattern.html
+---
 
 Тут мы подключаем Bootstrap для подгрузки уже готовых стилей.
 
@@ -106,6 +107,7 @@ urlpatterns = [
 ```
 
 ### statix/main/css/main.css
+---
 
 В данном файле описаны стили для сайта
 
@@ -271,6 +273,7 @@ urlpatterns = [
 
 
 ### main/views.py
+---
 
 ```
 from django.shortcuts import render
